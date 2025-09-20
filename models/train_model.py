@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 import joblib
 
 # Загружаем данные
-data_path = 'Student_Marks.csv'  # Путь к вашему CSV с тремя колонками
+data_path = 'data/Student_Marks.csv'
 df = pd.read_csv(data_path)
 
 # Признаки и целевая переменная
